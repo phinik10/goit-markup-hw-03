@@ -28,7 +28,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
-    outline: 1px solid var(--accent);
 }
 
 .logo-first {
@@ -85,10 +84,6 @@ body {
     line-height: 1,07;
     letter-spacing: 0.02em;
     
-}
-
-.hero {
-    text-align: center;
 }
 
 ul {
@@ -160,6 +155,8 @@ ul {
 }
 
 .subtitle {
+    margin-top: auto;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -169,6 +166,7 @@ ul {
 
 .image .pic {
     display: block;
+    margin-right: 24px;
     max-width: 100%;
     width: 360px;
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
