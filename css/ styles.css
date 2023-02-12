@@ -21,13 +21,14 @@ body {
 
 .page-header {
     border-bottom: 1px solid var(--accent);
+    background: var(--white);
 }
 
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
-    
+    outline: 1px solid var(--accent);
 }
 
 .logo-first {
@@ -77,20 +78,28 @@ body {
 }
 
 .hero {
+    text-align: center;
     width: 1440px;
     background-color: var(--dark);
     font-size: 56px;
     line-height: 1,07;
-    text-align: center;
     letter-spacing: 0.02em;
     
 }
 
+.hero {
+    text-align: center;
+}
+
 ul {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
