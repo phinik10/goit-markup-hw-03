@@ -108,6 +108,7 @@ ul {
 }
 
 .hero-button {
+    padding: 16px 32px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -257,11 +258,12 @@ ul {
     padding-top: 100px;
     padding-bottom: 100px;
     width: 1440px;
-    left: 0px;
     background: var(--dark);
 }
 
 .text-footer {
+    margin-top: 0;
+    margin-bottom: 0;
     line-height: 1.5;
     width: 264px;
     left: 156px;
@@ -271,6 +273,9 @@ ul {
 
 .logo-footer {
     color: var(--light);
+    margin-top: 0;
+    margin-bottom: 16px;
+
 }
 
 .logo {
