@@ -20,14 +20,16 @@ body {
 }
 
 .page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--accent);
     background: var(--white);
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
     width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .logo-first {
@@ -77,6 +79,7 @@ body {
 }
 
 .hero {
+    margin-top: 0;
     text-align: center;
     width: 1440px;
     background-color: var(--dark);
@@ -137,7 +140,20 @@ ul {
     clip: rect(0 0 0 0);
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.section-img {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
 .text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.5;
     color: var(--text);
@@ -238,6 +254,8 @@ ul {
 
 
 .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 1440px;
     left: 0px;
     background: var(--dark);
