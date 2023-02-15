@@ -19,6 +19,12 @@ body {
     --white: #FFFFFF; 
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -50,16 +56,19 @@ body {
     text-decoration: none;
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .site-nav {
     display: flex;
+    margin-left: 76px;
 }
  
 .site-nav .link {
     margin-right: 40px;
 }
-
-
-
 
 .nav-link {
     display: block;
@@ -83,6 +92,7 @@ body {
 }
 
 .contact-link {
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -111,11 +121,7 @@ body {
     
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
+
 
 .hero-title {
     margin-top: 0;
