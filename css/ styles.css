@@ -106,7 +106,7 @@ ul {
     margin-left: auto;
 }
 
-.contacts .link + .link {
+.contacts .link {
     margin-right: 40px;
 }
 
