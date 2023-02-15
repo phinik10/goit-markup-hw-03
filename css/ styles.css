@@ -92,7 +92,6 @@ ul {
 }
 
 .contact-link {
-
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -104,9 +103,10 @@ ul {
 
 .contacts {
     display: flex;
+    margin-left: auto;
 }
 
-.contacts .contact-link {
+.contacts .link + .link {
     margin-right: 40px;
 }
 
