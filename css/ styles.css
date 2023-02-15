@@ -54,7 +54,7 @@ body {
     display: flex;
 }
  
-.site-nav .nav-link {
+.site-nav .link {
     margin-right: 40px;
 }
 
@@ -90,6 +90,14 @@ body {
     color: var(--text);
     text-decoration: none;
     letter-spacing: 0.02em;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts .contact-link {
+    margin-right: 40px;
 }
 
 .hero {
