@@ -101,12 +101,15 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.contacts {
+.contacts-nav {
     display: flex;
+}
+
+.page-address {
     margin-left: auto;
 }
 
-.contacts .link {
+.contacts-nav .link {
     margin-right: 40px;
 }
 
