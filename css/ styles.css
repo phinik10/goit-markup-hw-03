@@ -114,7 +114,6 @@ ul {
 }
 
 .hero {
-    margin-top: 0;
     text-align: center;
     width: 1440px;
     background-color: var(--dark);
@@ -127,6 +126,7 @@ ul {
 
 
 .hero-title {
+    margin: 0 auto;
     margin-top: 0;
     margin-bottom: 48px;
     font-weight: 700;
@@ -139,6 +139,7 @@ ul {
 }
 
 .hero-button {
+    display: inline-block;
     padding: 16px 32px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -176,6 +177,11 @@ ul {
     padding-top: 120px;
     padding-bottom: 120px;
     
+}
+
+.list {
+    display: flex;
+
 }
 
 .portfolio {
@@ -268,6 +274,10 @@ ul {
     cursor: pointer;
 }
 
+.item-btn {
+    margin-right: 24px;
+}
+
 .item-btn:hover,
 .item-btn:focus {
     background: var(--pressed-state);
@@ -275,12 +285,30 @@ ul {
 }
 
 .list-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 72px;
 }
 
 .service {
     box-sizing: border-box;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service {
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+.service:nth-child(3n) {
+    margin-right: 0;
 }
 
 .service-title {
