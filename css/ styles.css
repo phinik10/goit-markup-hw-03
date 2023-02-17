@@ -298,13 +298,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--primary-brend);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     cursor: pointer;
 }
 
-.item-btn {
-    margin-right: 24px;
+.btn + .btn {
+    margin-left: 24px;
 }
 
 .item-btn:hover,
