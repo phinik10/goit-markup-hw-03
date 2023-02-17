@@ -115,10 +115,9 @@ ul {
     text-align: center;
     width: 1440px;
     background-color: var(--dark);
-    font-size: 56px;
-    line-height: 1,07;
-    letter-spacing: 0.02em;
-    
+    align-items: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 
@@ -183,6 +182,7 @@ ul {
 
 .flex-item {
     margin-right: 24px;
+    width: 264px;
 }
 
 .flex-item:nth-child(4n) {
