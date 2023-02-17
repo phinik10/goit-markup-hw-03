@@ -147,7 +147,9 @@ ul {
     line-height: 1.5;
     color: var(--white);
     letter-spacing: 0.04em;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
     background-color: var(--primary-brend);
     cursor: pointer;
 }
@@ -157,6 +159,8 @@ ul {
     background-color: var(--pressed-state);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+
 }
  
 .visually-hidden {
