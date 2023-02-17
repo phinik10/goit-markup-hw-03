@@ -64,8 +64,10 @@ ul {
     margin-left: 76px;
 }
  
-.site-nav .link {
-    margin-right: 40px;
+
+
+.nav + .nav {
+    margin-left: 40px;
 }
 
 .nav-link {
@@ -107,7 +109,7 @@ ul {
     margin-left: auto;
 }
 
-.contacts-nav .link {
+.contact + .contact {
     margin-left: 40px;
 }
 
@@ -260,15 +262,16 @@ ul {
     display: flex;
 }
 
-.image .pic {
-    display: block;
-    margin-right: 24px;
+.section-img img {
     max-width: 100%;
-    width: 360px;
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
-    background-blend-mode: soft-light, normal;
-    border: 1px solid var(--accent);
+    display: block;
+    height: auto ;
 }
+
+.pic + .pic  {
+    margin-left: 24px;
+}
+
 
 .gallery {
     background: var(--light);
@@ -277,12 +280,12 @@ ul {
 .staff {
     padding: 0px 0px 32px;
     gap: 32px;
-    margin-right: 24px;
     background: var(--white);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 }
 
+.staff + .staff {
+    margin-left: 24px;
+}
 
 .item-btn {
     display: inline-block;
@@ -380,10 +383,13 @@ ul {
 .logo-footer {
     color: var(--light);
     margin-top: 0;
-    margin-bottom: 16px;
 
 }
 
 .logo {
     text-decoration: none;
+}
+
+.page-footer p {
+    margin-top: 16px;
 }
