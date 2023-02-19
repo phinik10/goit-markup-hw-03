@@ -119,7 +119,7 @@ ul {
     background-color: var(--dark);
     align-items: center;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 
 
@@ -382,7 +382,6 @@ ul {
 .page-footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1440px;
     background: var(--dark);
 }
 
